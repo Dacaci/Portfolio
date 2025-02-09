@@ -42,3 +42,36 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #bbb;
 }
+
+/* ----- BUTTON DESIGN ----- */
+.btn {
+    font-weight: 500;
+    padding: 12px 20px;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+  }
+  .btn > i {
+    margin-left: 10px;
+  }
+  .btn:hover {
+    background: var(--second-color);
+    color: var(--color-white);
+  }
+  
+
+  i {
+    font-size: 16px;
+  }
+  
+  /* ------- BASE -------- */
+  body {
+    background: var(--body-color);
+  }
+  .container {
+    width: 100%;
+    position: relative;
+  }
+  
