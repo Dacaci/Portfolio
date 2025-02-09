@@ -26,3 +26,12 @@ function myMenuFunction() {
     }
   }
   
+  /* ----- TYPING EFFECT ----- */
+var typingEffect = new Typed(".typedText", {
+    strings: ["Développeur", "Étudiant"],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 2000
+  });
+  
